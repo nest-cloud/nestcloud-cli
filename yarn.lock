@@ -318,10 +318,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@nestcloud/schematics@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@nestcloud/schematics/-/schematics-0.0.3.tgz#756b03d7921769d38142ea4550c1a7bcc585386d"
-  integrity sha512-lwKAonll9jDX/UMATKupDV2WWZUxdg125dHskSHuw5/pPK6jOOzBf9O/Xxj+9N/vVDu23Tbpv48VkTwHxlgTHA==
+"@nestcloud/schematics@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@nestcloud/schematics/-/schematics-0.1.0.tgz#6be0c26bd55a6f63ef9d56687f16d29f47b2c11c"
+  integrity sha512-z9xNkIv5yfT5fcThMYBDNfiHaVq3vssib3t3Q+1yuO2sNKb8JuWtO93vEtz6GcYgGW7YCZI7CkYi4L+UrKTbig==
   dependencies:
     "@angular-devkit/core" "7.3.8"
     "@angular-devkit/schematics" "7.3.8"

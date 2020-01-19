@@ -1,6 +1,6 @@
 {
   "name": "@nestcloud/cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NestCloud is a Node.js micro-service solution, writing by Typescript language and Nest.js",
   "publishConfig": {
     "access": "public"
@@ -41,7 +41,7 @@
     "@angular-devkit/core": "7.3.8",
     "@angular-devkit/schematics": "7.3.8",
     "@angular-devkit/schematics-cli": "0.13.8",
-    "@nestcloud/schematics": "^0.0.3",
+    "@nestcloud/schematics": "^0.1.0",
     "chalk": "2.4.2",
     "cli-table3": "0.5.1",
     "commander": "4.1.0",
