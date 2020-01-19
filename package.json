@@ -1,0 +1,77 @@
+{
+  "name": "@nestcloud/cli",
+  "version": "0.1.0",
+  "description": "NestCloud is a Node.js micro-service solution, writing by Typescript language and Nest.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.5.1"
+  },
+  "bin": {
+    "nestcloud": "bin/nestcloud.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "gulp clean:bundle",
+    "format": "prettier --write \"**/*.ts\"",
+    "lint": "tslint -p .",
+    "start": "node bin/nestcloud.js",
+    "prepublish:next": "npm run build",
+    "publish:next": "npm publish --access public --tag next",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public",
+    "test": "jest --config test/jest-config.json",
+    "test:dev": "npm run clean && jest --config test/jest-config.json --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nest-cloud/cli.git"
+  },
+  "contributors": [
+    "Miaowing <me@zf.ink>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nest-cloud/cli/issues"
+  },
+  "homepage": "https://github.com/nest-cloud/cli#readme",
+  "dependencies": {
+    "@angular-devkit/core": "7.3.8",
+    "@angular-devkit/schematics": "7.3.8",
+    "@angular-devkit/schematics-cli": "0.13.8",
+    "@nestcloud/schematics": "^0.0.3-0",
+    "chalk": "2.4.2",
+    "cli-table3": "0.5.1",
+    "commander": "4.1.0",
+    "copyfiles": "2.1.1",
+    "inquirer": "7.0.3",
+    "node-emoji": "1.10.0",
+    "ora": "4.0.3",
+    "os-name": "3.1.0",
+    "rimraf": "3.0.0",
+    "tree-kill": "1.2.2",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/copyfiles": "2.1.1",
+    "@types/inquirer": "6.5.0",
+    "@types/jest": "24.9.0",
+    "@types/node": "12.12.21",
+    "@types/node-emoji": "1.8.1",
+    "@types/ora": "3.1.0",
+    "@types/os-name": "2.0.0",
+    "@types/rimraf": "2.0.3",
+    "delete-empty": "3.0.0",
+    "gulp": "4.0.2",
+    "gulp-clean": "0.4.0",
+    "jest": "24.9.0",
+    "prettier": "1.19.1",
+    "ts-jest": "24.3.0",
+    "ts-loader": "6.2.1",
+    "ts-node": "8.6.2",
+    "tslint": "5.20.1"
+  }
+}
