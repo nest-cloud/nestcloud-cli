@@ -11,6 +11,7 @@ export class NestCloudCollection extends AbstractCollection {
     private static schematics: Schematic[] = [
         { name: 'application', alias: 'app' },
         { name: 'consul-application', alias: 'consul-app' },
+        { name: 'etcd-application', alias: 'etcd-app' },
     ];
 
     constructor(runner: AbstractRunner) {

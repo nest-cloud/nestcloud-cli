@@ -1,6 +1,6 @@
 {
   "name": "@nestcloud/cli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "NestCloud is a Node.js micro-service solution, writing by Typescript language and Nest.js",
   "publishConfig": {
     "access": "public"
